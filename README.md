@@ -94,6 +94,10 @@ In the web UI, you can run synthetic workloads up to 500 blocks. For runs above 
 5. Run the main script
 
 ```bash
+cd AI-Optimised-Flash-Based-Storage-Architecture-for-Edge-Devices-Using-Energy-Aware-Data-Placement
+```
+
+```bash
 python -m pip install -r requirements.txt
 python edge_ai_flash_project.py
 ```
@@ -136,7 +140,7 @@ python -m ml.training
 
 ```bash
 python -m pip install -r requirements.txt
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 The browser demo lets you switch between a controlled synthetic benchmark workload and a short live telemetry capture from the current machine. The presentation flow always uses the ML-backed placement engine.
